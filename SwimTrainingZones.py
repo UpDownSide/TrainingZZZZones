@@ -1,7 +1,7 @@
 
-#This script serves to cyclic sport, it aims the limits of energy production
-#knowing that these limits could be trained. Use a professional of this area 
-#when training, be carefull...
+# This script serves to cyclic sport, it aims the limits of energy production,
+# limits could be trained. Use a professional of this area when training, be carefull... 
+# You can always try your best!!!! Hoping to help!
 
 
 name = input ("What's your name? ")
