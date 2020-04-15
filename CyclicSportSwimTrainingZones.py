@@ -35,4 +35,5 @@ print ('You need to complete that distance in',(round (T3)),'seconds','is for la
 print('oVer and Over... Again ')
 
 
-#Ref - Workload and perception of effort in swimming training - Luís Rama, Ana M Teixeira
+# BiBle - Workload and perception of effort in swimming training - Luís Rama, Ana M Teixeira
+# Among others
