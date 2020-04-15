@@ -23,7 +23,7 @@ print (RecA0, 'm/s','is the speed for recovering purposes')
 FatA1 = d*0.6
 print (FatA1, 'm/s','is the speed for burning fat')
 GlycogenA2 = d*0.6 and d*0.8
-print (GlycogenA2, 'm/s','is the speed for increase glycolic metabolism and increase glycogen storage')
+print (GlycogenA2, 'm/s','is the speed for increase glycolic metabolism and lactate threshold')
 AllA3 = d*0.95
 print (AllA3, 'm/s','is the speed for increase lactate tolerance and VO2Max')
 
@@ -33,7 +33,7 @@ print ('You need to complete that distance in',(round (T0)),'seconds','for recov
 T1 = b/FatA1
 print ('You need to complete that distance in',(round (T1)),'seconds','for burning fat')
 T2 = b/GlycogenA2
-print ('You need to complete that distance in',(round (T2)),'seconds', 'for increase glycolic metabolism and increase glycogen storage')
+print ('You need to complete that distance in',(round (T2)),'seconds', 'for increase glycolic metabolism and lactate threshold')
 T3 = b/AllA3
 print ('You need to complete that distance in',(round (T3)),'seconds','for increase lactate tolerance and VO2Max')
 
