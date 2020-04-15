@@ -1,26 +1,31 @@
 
-# This script serves to cyclic sport, it aims the limits of energy production,
-# limits could be trained. Use a professional of this area when training, be carefull... 
-# You can always try your best!!!! Hoping to help!
+#This script serves to cyclic sport, it aims the limits of energy production
+#we know that these limits can be trained. Use a professional of this area 
+#when training, be carefull... 
 
+import time
 
 name = input ("What's your name? ")
+print('Hi', name)
 distance = input ("What's your swim distance (in meters)? ")
+print('Only? You are getting old... Only', distance, '!')
 b = int (distance)
-time = input ("How long did you take to swim it at full speed (in seconds)?")
-c = int (time)
+ti = input ("How long did you take to swim it at full speed (in seconds)?")
+print('Are you sure? Have you done the conversion??')
+time.sleep (2)
+c = int (ti)
 d = b/c
-print(d, 'm/s', 'is your full speed') 
+print(d, 'm/s','is your full speed') 
 
 #Speed training zones, speed for each metabolic zone
 RecA0 = d*0.5
-print (RecA0, 'm/s','is for recovering purposes')
+print (RecA0, 'm/s','is the speed for recovering purposes')
 FatA1 = d*0.6
-print (FatA1, 'm/s','is for burning fat')
+print (FatA1, 'm/s','is the speed for burning fat')
 GlycogenA2 = d*0.6 and d*0.8
-print (GlycogenA2, 'm/s','is for increase glycolic metabolism and increase glycogen storage')
+print (GlycogenA2, 'm/s','is the speed for increase glycolic metabolism and increase glycogen storage')
 AllA3 = d*0.95
-print (AllA3, 'm/s','is for lactate production and for increase VO2Max')
+print (AllA3, 'm/s','is the speed for increase lactate tolerance and VO2Max')
 
 #Time lap training zones, time for the swwimer's (athlete) distance
 T0 = b/RecA0
@@ -30,10 +35,13 @@ print ('You need to complete that distance in',(round (T1)),'seconds','for burni
 T2 = b/GlycogenA2
 print ('You need to complete that distance in',(round (T2)),'seconds', 'for increase glycolic metabolism and increase glycogen storage')
 T3 = b/AllA3
-print ('You need to complete that distance in',(round (T3)),'seconds','is for lactate production and for increase VO2Max')
+print ('You need to complete that distance in',(round (T3)),'seconds','for increase lactate tolerance and VO2Max')
 
+time.sleep(3)
 print('oVer and Over... Again ')
 
-
+time.sleep(2)
+print('Again')
+ 
 # BiBle - Workload and perception of effort in swimming training - Luís Rama, Ana M Teixeira
 # Among others
