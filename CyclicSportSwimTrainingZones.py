@@ -2,7 +2,8 @@
 
 #This script serves to cyclic sport, it aims the limits of energy production
 #we know that these limits can be trained. Use a professional of this area 
-#when training, be carefull... You can use this piece a code for the best purposes
+#when training, be carefull with the amount at each speed... Be wise... 
+#You can use this piece a code for the best purposes
 
 import time
 
