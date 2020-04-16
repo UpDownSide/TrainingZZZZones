@@ -53,5 +53,5 @@ print('Again...')
 time.sleep(3)
 print('Do not miss the next chapter.... We dont')
  
-# BiBle - Workload and perception of effort in swimming training - Luís Rama, Ana M Teixeira
-# Among others
+
+# Several bibles
